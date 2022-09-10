@@ -2,6 +2,7 @@ public class Person {
     private int id;
     private String name;
     private String address;
+    private String ssss;
 
     public String getAddress() {
         return address;
@@ -25,5 +26,13 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSsss() {
+        return ssss;
+    }
+
+    public void setSsss(String ssss) {
+        this.ssss = ssss;
     }
 }
